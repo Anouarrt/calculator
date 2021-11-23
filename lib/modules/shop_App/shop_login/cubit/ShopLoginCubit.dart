@@ -9,7 +9,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 class ShopLoginCubit extends Cubit<ShopLoginstates>{
 
   ShopLoginCubit() : super(InisialisiersopState());
-
+    // hello I test my branch
+    // hello 2
   // J'ai Creer class a moi 
   static ShopLoginCubit get(context) =>BlocProvider.of(context);
 
